@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <button onclick="openModal()" class="main__btn  ">Open modal</button>
+    <section class="    modal">
+        <div class="modal__top">
+            <h2>About Modal ...</h2>
+            <button onclick="closeModal()"  class="top__cros">X</button>
+        </div>
+        <div class="main__modal">
+            <p>Maybe you were happy to see this popup, or maybe you were surprised and confused. But no matter how you reacted, this window definitely got your attention. In web design terms, this type of display is called a modal.  Modals are polarizing among designers and users alike.  </p>
+        </div>
+        <div class="modal__bottom">
+            <button onclick="closeModal()"  class="exit__btn">Cancel</button>
+            <button class="save__btn">Save</button>
+        </div>
+    </section>
+    <div onclick="closeModal()"   class="shadow"></div>
+</body>
+<script src="./js/main.js"></script>
+</html>
